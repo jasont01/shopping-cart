@@ -2,13 +2,8 @@
   { "game": "1942", "box_art": "img/1942.png", "price": 19.99 },
   { "game": "1943", "box_art": "img/1943.png", "price": 19.99 },
   {
-    "game": "Addams Family, The",
+    "game": "The Addams Family",
     "box_art": "img/Addams_Family.png",
-    "price": 19.99
-  },
-  {
-    "game": "Addams Family, The - Pugsley's Scavenger Hunt",
-    "box_art": "img/Addams_Family,_The_-_Pugsley_s_Scavenger_Hunt.png",
     "price": 19.99
   },
   {
@@ -166,24 +161,24 @@
   },
   { "game": "Ghostbusters", "box_art": "img/Ghostbusters.png", "price": 19.99 },
   {
-    "game": "Ghosts _n Goblins",
+    "game": "Ghosts n Goblins",
     "box_art": "img/Ghosts_n_Goblins.png",
     "price": 19.99
   },
   { "game": "Golf", "box_art": "img/Golf.png", "price": 19.99 },
   {
-    "game": "Goonies II, The",
+    "game": "The Goonies II",
     "box_art": "img/Goonies_II.png",
     "price": 19.99
   },
   { "game": "Gradius", "box_art": "img/Gradius.png", "price": 19.99 },
   {
-    "game": "Guardian Legend, The",
+    "game": "The Guardian Legend",
     "box_art": "img/Guardian_Legend.png",
     "price": 19.99
   },
   {
-    "game": "Hunt for Red October, The",
+    "game": "The Hunt for Red October",
     "box_art": "img/Hunt_for_Red_October.png",
     "price": 19.99
   },
@@ -193,7 +188,7 @@
   { "game": "Jeopardy!", "box_art": "img/Jeopardy.png", "price": 19.99 },
   { "game": "Joust", "box_art": "img/Joust.png", "price": 19.99 },
   {
-    "game": "Karate Kid, The",
+    "game": "The Karate Kid",
     "box_art": "img/Karate_Kid.png",
     "price": 19.99
   },
@@ -210,7 +205,7 @@
   },
   { "game": "Kung Fu", "box_art": "img/Kung_Fu.png", "price": 19.99 },
   {
-    "game": "Legend of Zelda, The",
+    "game": "The Legend of Zelda",
     "box_art": "img/Legend_of_Zelda.png",
     "price": 19.99
   },
@@ -333,7 +328,7 @@
     "price": 19.99
   },
   {
-    "game": "Teenage Mutant Ninja Turtles - Tournament Fighters",
+    "game": "T.M.N.T. - Tournament Fighters",
     "box_art": "img/Teenage_Mutant_Ninja_Turtles_-_Tournament_Fighters.png",
     "price": 19.99
   },
