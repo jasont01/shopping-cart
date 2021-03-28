@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar cartSize={cart.length} />
         <Switch>
           <Route exact path='/' component={Home} />
