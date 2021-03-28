@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const fetchList = async () => {
-      const res = await fetch('../game_list.json');
+      const res = await fetch('./game_list.json');
       const data = await res.json();
       setGameList(data);
     };
