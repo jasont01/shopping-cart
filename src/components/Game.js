@@ -7,8 +7,11 @@ const GameContainer = styled.div`
   max-width: 230px;
   margin: 1.5em;
   margin-bottom: 3em;
-  background-color: lightgrey;
+  background-color: #f4f5f7;
   padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  //box-shadow: 5px 5px #888888;
 `;
 
 const GameInfo = styled.div`
@@ -30,13 +33,17 @@ const GamePrice = styled.h4`
 const Game = (props) => {
   return (
     <GameContainer>
-      <Cartridge coverart={props.art} />
+      <Link to={`/Store/${props.id}`}>
+        <Cartridge coverart={props.art} />
+      </Link>
       <GameInfo>
         <GameTitleWrapper>
           <Link to={`/Store/${props.id}`}>{props.game}</Link>
         </GameTitleWrapper>
         <GamePrice>${props.price}</GamePrice>
-        <Button>Add To Cart</Button>
+        <Button id={props.id} onClick={props.addToCart}>
+          Add To Cart
+        </Button>
       </GameInfo>
     </GameContainer>
   );

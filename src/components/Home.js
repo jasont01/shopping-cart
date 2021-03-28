@@ -1,14 +1,21 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Button from './Button';
 
-const HomeWrapper = styled.div``
+const HomeWrapper = styled.div`
+  margin-top: 60vh;
+  text-align: center;
+  font-size: 2em;
+`;
 
 const Home = () => {
   return (
     <HomeWrapper>
-      <h1>HOME</h1>
+      <Link to='/store'>
+        <Button>Enter Store</Button>
+      </Link>
     </HomeWrapper>
-  )
-}
+  );
+};
 
-export default Home
-
+export default Home;

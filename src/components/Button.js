@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+//  Original Design Credit
+//  https://nostalgic-css.github.io/NES.css/
+//  Converted to styled-component
+
 //blue
 //background-color: #209cee
 //box-shadow: inset -4px -4px #006bb3
@@ -42,7 +46,7 @@ const NESBtn = styled.button`
   background-color: #92cc41;
 
   &.white-border {
-  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(255,255,255)" /></svg>');
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(255,255,255)" /></svg>');
   }
 
   &:after {
@@ -56,8 +60,12 @@ const NESBtn = styled.button`
   }
 `;
 
-const Button = ({className, children}) => {
-  return <NESBtn className={className}>{children}</NESBtn>;
+const Button = ({ className, id, onClick, children }) => {
+  return (
+    <NESBtn className={className} onClick={() => onClick && onClick(id)}>
+      {children}
+    </NESBtn>
+  );
 };
 
 export default Button;

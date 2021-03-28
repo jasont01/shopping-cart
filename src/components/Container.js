@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+//  Original Design Credit
+//  https://nostalgic-css.github.io/NES.css/
+//  Converted to styled-component
+
 const NESContainer = styled.div`
   font-weight: 400;
   line-height: 1.5;
